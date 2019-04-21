@@ -1,0 +1,13 @@
+.flash-box {
+  @include characterDecoration(1rem, white, lighter);
+  text-align: center;
+  width: 100vw;
+
+  .notice {
+    background-color: $skyBlueColor;
+  }
+
+  .alert {
+    background-color: $alertOrangeColor;
+  }
+}
